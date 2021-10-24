@@ -1,0 +1,3 @@
+local my_module = require("myModule")
+print(my_module.hi("how"))
+print(my_module.cal(6,6))
