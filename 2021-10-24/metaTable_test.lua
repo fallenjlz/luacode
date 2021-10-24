@@ -3,7 +3,7 @@ local function metaMethod_add(tbl1, tbl2)
 end
 
 local tbl1 = {value=10}
-local tbl2 = {value=30z}
+local tbl2 = {value=30}
 
 local metaTbl = {__add=metaMethod_add}
 
